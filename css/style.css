@@ -1,3 +1,4 @@
+/* FONTS */
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot');
@@ -10,6 +11,7 @@
     font-display: block;
 }
 
+/* ICONS */
 .icons-customer:before, .icons-cart:before, .reviews__block__title:after {
     font-family: IcoMoon, monospace;
 }
@@ -45,6 +47,7 @@
     left: -65%;
 }
 
+/* GLOBAL FIX*/
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
@@ -62,6 +65,7 @@ li {
     padding-left: 25px;
 }
 
+/* STYLES */
 .header--black {
     color: white;
     background: black;
@@ -73,40 +77,40 @@ li {
     margin-bottom: 15px;
 }
 
-.header__wrap {
+.header--wrap {
     display: flex;
     max-width: 1024px;
     margin: auto;
     justify-content: space-between;
 }
 
-.header__wrap__mobile {
+.header__mobile {
     display: none;
 }
 
-.header__wrap__mobile img {
+.header__mobile__img {
     max-width: 48px;
     margin: auto;
 }
 
-.header__wrap__logo {
+.header__logo {
     font-size: 24px;
     align-self: center;
     padding-left: 15px;
 
 }
 
-.header__wrap__main {
+.header__main {
     padding: 15px 6% 15px 0;
     align-content: center;
 }
 
-.header__wrap__main a {
+.header__main__link {
     padding: 0 10px;
     color: #666;
 }
 
-.header__wrap__icons {
+.header__icons {
     font-size: 28px;
     align-self: center;
     padding-right: 15px;
@@ -124,7 +128,7 @@ li {
     padding-right: 5%;
 }
 
-.carousel-inner img {
+.carousel__img {
     max-width: 100%;
 }
 
@@ -133,66 +137,63 @@ li {
     flex-wrap: wrap;
 }
 
-.gallery img {
+.gallery__img {
     width: 85px;
     padding: 5px;
 }
 
-.gallery a:focus img {
+:focus .gallery__img {
     border: solid orangered 2px;
 }
 
-.main--right {
+.main {
     width: 50%;
 }
 
-.main--right__title {
+.main__title {
     color: #333;
     font-size: 24px;
     text-transform: capitalize;
     line-height: 32px;
 }
 
-.main--right__price {
+.main__price {
     color: #c41949;
     font-size: 24px;
 }
 
-.main--right__price b {
+.main__price__text {
     font-size: 28px;
 }
 
-.main--right__quantity input {
+.main__quantity__input {
     text-align: center;
     width: 50px;
 }
 
-.main--right__cart {
+.main__cart {
     text-align: center;
     margin: 10px;
 }
 
-.main--right__cart a {
+.main__cart__btn{
     color: black;
 }
-
-
-.main--right__block {
+.main__block {
     color: #666;
     font-size: 18px;
 }
 
-.main--right__block img {
+.main__block img {
     max-width: 100%;
     margin: auto;
     display: block;
 }
 
-.main--right__block ul {
+.main__block ul {
     margin: 10px 0;
     text-align: left;
 }
-
 
 .rating {
     display: block;
@@ -256,11 +257,11 @@ li {
     height: 100%;
 }
 
-.reviews__block__img {
+.reviews__img {
     max-width: 100%;
 }
 
-.reviews__block__author {
+.reviews__author {
     display: block;
     position: relative;
     width: 50px;
@@ -270,27 +271,27 @@ li {
     border-radius: 50%;
 }
 
-.reviews__block__title {
+.reviews__title {
     text-align: center;
 }
 
-.reviews__block__flag {
+.reviews__flag {
     text-align: center;
     font-size: 14px;
     color: grey;
 }
 
-.reviews__block__flag img {
+.reviews__flag__img {
     padding-bottom: 6px;
 }
 
-.reviews__block__stars {
+.reviews__stars {
     color: #c41949;
     font-size: 18px;
     text-align: center;
 }
 
-.reviews__block__text {
+.reviews__text {
     padding: 10px;
     text-align: center;
 }
@@ -354,7 +355,7 @@ li {
     width: 50%;
 }
 
-.footer__top__block b {
+.footer__top__bold {
     color: #d9d9d9;
     font-size: 18px;
 }
@@ -366,7 +367,7 @@ li {
 .footer__bottom__logo {
     max-width: 50px;
 }
-
+/* MOBILE ADAPTATION */
 @media (max-width: 640px) {
     .header__wrap__main, .icons-customer {
         display: none;
@@ -401,7 +402,7 @@ li {
         width: 100%;
     }
 }
-
+/* COLOR AND OTHER */
 .red {
     color: red;
     font-weight: bold;
