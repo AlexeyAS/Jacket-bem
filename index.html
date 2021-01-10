@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+
+    <!-- Open Graph & Meta tags -->
+    <meta property="fb:app_id" content="1543007182658558"/>
+    <meta property="og:type" content="website">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Bootstrap 4.5.3 styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jQuery 3.5.1 -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap 4.5.3 bundle scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header--black">Domain.com</div>
+<div class="header">
+    <div class="header__wrap">
+        <a href="#form" class="header__wrap__mobile">
+            <img src="img/menu.png">
+        </a>
+        <a class="header__wrap__logo" href="#form">CORDINATE</a>
+        <div class="header__wrap__main">
+            <a href="#form">НАЧАЛО</a>
+            <a href="#form">ФОРМА</a>
+        </div>
+        <div class="header__wrap__icons">
+            <a class="icons-customer" href="#form"></a>
+            <a class="icons-cart" href="#form"></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="main--left">
+        <div id="slider" class="slider carousel slide">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="img/g1.jpg"></div>
+                <div class="carousel-item"><img src="img/g2.png"></div>
+                <div class="carousel-item"><img src="img/g3.jpg"></div>
+                <div class="carousel-item"><img src="img/g4.jpg"></div>
+                <div class="carousel-item"><img src="img/g5.jpg"></div>
+                <div class="carousel-item"><img src="img/g6.jpg"></div>
+                <div class="carousel-item"><img src="img/g7.jpg"></div>
+                <div class="carousel-item"><img src="img/g8.png"></div>
+                <div class="carousel-item"><img src="img/g9.jpg"></div>
+                <div class="carousel-item"><img src="img/g10.jpg"></div>
+                <div class="carousel-item"><img src="img/g11.jpg"></div>
+            </div>
+
+            <a class="carousel-control-prev" href="#slider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="#slider" data-target="#slider" data-slide-to="0" class="active"><img src="img/g1.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="1"><img src="img/g2.png"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="2"><img src="img/g3.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="3"><img src="img/g4.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="4"><img src="img/g5.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="5"><img src="img/g6.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="6"><img src="img/g7.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="7"><img src="img/g8.png"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="8"><img src="img/g9.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="9"><img src="img/g10.jpg"></a>
+            <a href="#slider" data-target="#slider" data-slide-to="10"><img src="img/g11.jpg"></a>
+        </div>
+    </div>
+    <div class="main--right">
+        <div class="main--right__title">
+            [Последен ден с намаление 60%] Тактическо военно яке за активности
+            навън
+        </div>
+        <div class="main--right__price">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <br>
+            <b>109 Lv</b>
+        </div>
+        <span>Колличество</span>
+        <div class="main--right__quantity input-group">
+            <div class="input-group-prepend">
+                <button class="input-group-text" onclick="quantityMin()">-</button>
+            </div>
+            <input id="quantity" type="text" value="1" pattern="[0-9]">
+            <div class="input-group-append">
+                <button class="input-group-text" onclick="quantityMax()">+</button>
+            </div>
+        </div>
+        <div class="main--right__cart">
+            <a class="icons-cart btn btn-outline-secondary" href="#form"> ДОБАВИ В КОЛИЧКАТА</a>
+        </div>
+        <div class="main--right__block">
+            <div class="center">
+                Ние ще продадем 1000 броя по най-ниската цена <span class="red">109 Lv</span>
+                <br>
+                По-късно цената ще бъде <span class="red">218 Lv</span> !!!!
+                <br>
+                <span class="red-bg">Тази цена е САМО днес</span>
+                <br>
+                <b>(Първи 100 клиенти могат да използват тази намалена цена !!!)</b>
+            </div>
+            <br>
+            <b>Даже оставайки без движение, вие лесно ще претърпите каквото и да е време!</b>
+            <br>
+            <b>Това суперздраво военно яке с нагреватели ще ви защити от всякакво лошо време!</b>
+            <img src="img/b1.gif" class="py-2">
+            <br>
+            <ul>
+                <b>Изготвено от материала SOFT SHELL MILITARY!</b>
+                <br>
+                То не се страхува от порязвания, изгаряния, разкъсвания, жега, вода или вятър!
+                <li><b>Тя е разработена за да се противопоставя на лошото време</b> за тези, които прекарват много време
+                    навън.
+                </li>
+                <b>Якето ви защитява от каквито и да са неблагоприятни фактори на околната среда.</b>
+                <li>Защитява ви от <b>студ, дъжд, вятър и сняг!</b></li>
+            </ul>
+            <img src="img/b2.jpg" class="py-2">
+            <ul>
+                <b>Скрити джобове за всякакви ваши нужди!</b>
+                <li>В него има доста място за ВСИЧКИ неща!</li>
+            </ul>
+            <img src="img/b3.jpg" class="py-2">
+            <ul>
+                <b>Удобно, леко и добре вентилирано!</b>
+                <li>Вентилираните мишници не ви позволяват да се потите!</li>
+            </ul>
+            <img src="img/b4.jpg" class="py-2">
+            <b>ПОДХОЖДА ЗА ВСИЧКИ ВИДОВЕ АКТИВНО ПОЧИВАНЕ!</b>
+            <br>
+            <span class="small">Перфектното качество и максималната функционалност са гарантирани!</span>
+            <br>
+            То ще стане основно нещо в гардероба ви! Това е практично изделие, което ще ви слиса със своите
+            функционалност, стил и естетика.
+            <img src="img/b5.jpg" class="py-2">
+            <ul>
+                <b>Голям избор на цветове!</b>
+                <li>Вие можете да изберете якето за вашия стил!</li>
+            </ul>
+            Това ветроупорно и водоустойчиво яке с нагреватели перфектно подхожда за спортуване навън! И за лов,
+            къмпинг, риболов или всеки друг вид активно почиване … якето е идеално.
+            <img src="img/b6.jpg" class="py-2">
+            Това яке от материала Softshell има джоб отпред с цип за да защити крехки предмети като мобифон. Яката с цип
+            ще защити шията ви и ще остава вдигнат даже по време на интензивни упражнения.
+            <img src="img/b7.jpg" class="py-2">
+            Регулираните маншети с велкро ви позволяват да се адаптирате към променящите се метеорологични условия.
+            Коланът на талия предотвратява вмъкване на сняг под якето, съхранявайки жизненоважни органи, като бъбреци,
+            на топло.
+            <img src="img/b8.jpg">
+            <img src="img/b9.jpg">
+            <ul>
+                <b>ОСОБЕНОСТИ:</b>
+                <li>Специален външен слой от полиестер и найлон, памучна подплата.</li>
+                <li>Повърхността съдържа три слоя 100D4, материалът е спандекс, дишащ, лек, ветроупорен</li>
+                <li>Вентилация в долната част на якето</li>
+            </ul>
+            <img src="img/b10.jpg">
+            <ul>
+                <li>Голям джоб с два отвора</li>
+                <li>Качулка с връвчица</li>
+                <li>Скрита качулка</li>
+                <li>2 скрити джоба</li>
+            </ul>
+            <img src="img/b11.jpg">
+            <br>
+            <span class="red-bg">Може да ви хареса</span>
+            <br>
+            Страхотно яке с нагреватели << Натисни <<
+            <img src="img/b12.jpg">
+            <br>
+            Обърнете внимание, че доставката е гарантирана и заема 1-3 делника из цялата страна.
+            <br>
+            <b>🔒 100% безопасно купуване 🔥</b>
+            <br><br>
+            <div class="center"><b>ПОРЪЧАЙ ВОЕННО ТАКТИЧЕСКО ЯКЕ СЕГА</b></div>
+            <br>
+            <div class="center">Това е много лесно:</div>
+
+            <div class="row mt-3">
+                <div class="col-6">
+                    <img src="img/icon1.svg">
+                    <b class="black">1.</b> Оставете заявка в сайта
+                </div>
+                <div class="col-6">
+                    <img src="img/icon2.svg">
+                    <b class="black">2.</b> Съгласен съм с детайлите на доставката
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-6">
+                    <img src="img/icon3.svg">
+                    <b class="black">3.</b> Очаквайте позвъняване на мениджъра
+                </div>
+                <div class="col-6">
+                    <img src="img/icon4.svg">
+                    <b class="black">4.</b> Платете за стоката при получаване
+                </div>
+            </div>
+            <div class="center"><b>💖ГАРАНЦИЯ💖</b></div>
+            <ul>
+                <li>Ако не сте задоволени по каквато и да е причина, ние ще направим ВСИЧКО, за да останете доволни на
+                    100%.
+                </li>
+                <li>Купуване онлайн може да е трудна задача, затова искаме да разберете, че в процеса на купуването няма
+                    НИКАКЪВ риск. Ако не ви харесва нещо, ние ще се опитаме да решим всяка проблема.
+                </li>
+            </ul>
+            <img src="img/b13.png">
+        </div>
+    </div>
+</div>
+<div class="rating">
+    <div class="rating__title">Оценки На Купувачи,</div>
+    <div class="rating__reviews">&#9733;&#9733;&#9733;&#9733;&#9733;
+        <div class="black">&nbsp; основани върху 147 отзива</div>
+        <div class="d-block">
+            <div class="rating__reviews__bar">
+                <div class="black">5</div>&nbsp; &#9733; &nbsp;
+                <div class="bar"></div>
+                <div class="black mx-auto">&nbsp; (146)</div>
+            </div>
+            <div class="rating__reviews__bar">
+                <div class="black">4</div>&nbsp; &#9733; &nbsp;
+                <div class="bar-2"></div>
+                <div class="black mx-auto">&nbsp; (1)</div>
+            </div>
+            <div class="rating__reviews__bar">
+                <div class="black">3</div>&nbsp; &#9733; &nbsp;
+                <div class="bar-3"></div>
+                <div class="black mx-auto">&nbsp; (0)</div>
+            </div>
+            <div class="rating__reviews__bar">
+                <div class="black">2</div>&nbsp; &#9733; &nbsp;
+                <div class="bar-3"></div>
+                <div class="black mx-auto">&nbsp; (0)</div>
+            </div>
+            <div class="rating__reviews__bar">
+                <div class="black">1</div>&nbsp; &#9733; &nbsp;
+                <div class="bar-3"></div>
+                <div class="black mx-auto">&nbsp; (0)</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="reviews">
+    <div class="reviews__block">
+        <img class="reviews__block__img" src="img/r1.jpg">
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Румен Костов</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Поръчах на 28.11, получих на 29.11. Качеството е много добро, няма миризма,
+            модельт е много хубав.
+        </div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__img" src="img/r2.jpg">
+        <img class="reviews__block__author" src="img/rr1.jpg">
+        <div class="reviews__block__title">Любен Тотев</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Всичко е както е на снимката. Произведено нормално. Точният размер. Добър
+            продавач
+        </div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Гриша Атанасов</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Страхотно яке за есента. Доставиха за 2 дена. По-хубаво, отколкото съм
+            очаквал. Благодаря много. Препоръчвам на всички - ще бъдете щастливи.
+        </div>
+    </div>
+    <div class="reviews__block">
+
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Николай Цветанов</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Качеството е отлично. Талията се намира в областта на гърдите, на за мене това
+            няма значение. С ръст 191 см и тегло 103 кг ми стана размерът 4 xl! Шевовете навсякъде са равни.
+            Препоръчвам.
+        </div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Димитър Танев</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Добро качество, бързо доставяне. Благодаря</div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Цецка Дюлгерова</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Якето е много хубаво</div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__author" src="img/rr2.jpg">
+        <div class="reviews__block__title">Радостина Пътева</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Хубав материал, якето е много удобна и топла, идеално върви за зимата.
+            Доставянето беше бързо. Препоръчвам.
+        </div>
+    </div>
+    <div class="reviews__block">
+        <img class="reviews__block__author" src="img/rr3.png">
+        <div class="reviews__block__title">Ива Иванова</div>
+        <div class="reviews__block__flag"><img src="img/flag.png"> BG</div>
+        <div class="reviews__block__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="reviews__block__text">Обикновено нося размер L, но този път поръчах 2XL, и той идеално ми стана.
+            Малки размери.
+        </div>
+    </div>
+</div>
+<form class="form" id="form" action="" method="post">
+    <div class="form__title">ПОПЪЛНЕТЕ ФОРМУЛЯРА</div>
+    <label class="form__label" for="name">Пример: Христо Христов</label>
+    <br>
+    <input class="form__input" id="name" type="text" name="name" placeholder="Въведете Име">
+    <br>
+    <label class="form__label" for="phone">Пример: +359277555889</label>
+    <br>
+    <input class="form__input" id="phone" type="tel" name="phone" placeholder="Въведете телефон">
+    <br>
+    <button class="form__submit" name="submit" type="submit">ПОРЪЧАЙ</button>
+</form>
+<div class="footer">
+    <div class="footer__top">
+        <div class="footer__top__block">
+            <b>НАША КОМПАНИЯ</b>
+            <br>
+            <a href="#">ПРАВА НА ИНТЕЛЕКТУАЛНАТА СОБСТВЕНОСТ</a>
+            <br>
+            <a href="#">ПОЛИТИКА НА ПОВЕРИТЕЛНОСТ</a>
+            <br>
+            <a href="#">ПОЛИТИКА ЗА ВРЪЩАНЕ</a>
+            <br>
+            <a href="#">УСЛОВИЯ НА РАБОТА</a>
+        </div>
+        <div class="footer__top__block">
+            <b>ОБСЛУЖВАНЕ НА КЛИЕНТИ</b>
+            <br>
+            <a href="#">За нас</a>
+            <br>
+            <a href="#">КОНТАКТИ</a>
+            <br>
+            <a href="#">НАЧИНИ НА ПЛАЩАНЕ</a>
+            <br>
+            <a href="#">ИНФОРМАЦИЯ ЗА ДОСТАВКАТА</a>
+        </div>
+    </div>
+    <hr>
+    <div class="footer__bottom">
+        <a href="#"><img class="footer__bottom__logo" src="img/logo-inst.png"></a>
+        <a href="#"><img class="footer__bottom__logo" src="img/logo-fb.png"></a>
+        <a href="#"><img class="footer__bottom__logo" src="img/logo-twit.png"></a>
+        <div class="my-2"></div>
+        ST. GERARDE LTD, PO Box 832, Orion Mall, Palm Street, Victoria, Mahé, Seychelles
+        <br>
+        8 800 333 3535
+        <br>
+        <a href="#">Декларация за поверителност</a>
+    </div>
+</div>
+<script>
+    function quantityMin() {
+        if (document.getElementById('quantity').value > 1) {
+            document.getElementById('quantity').value--;
+        }
+    }
+
+    function quantityMax() {
+        document.getElementById('quantity').value++;
+    }
+</script>
+</body>
+</html>
