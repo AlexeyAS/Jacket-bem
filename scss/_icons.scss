@@ -1,0 +1,37 @@
+
+.icons-customer:before,
+.icons-cart:before,
+.reviews__title:after {
+  font: 100% $font-icon;
+}
+
+.icons-customer:before {
+  content: "\e648";
+}
+
+.icons-cart:before {
+  content: "\e642";
+}
+
+.reviews__title:after {
+  content: "\e76c";
+  background: #bae637;
+  color: white;
+  border-radius: 50%;
+  padding: 1px;
+  margin-left: 5px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+  position: relative;
+}
+
+.carousel-control-next-icon {
+  right: -65%;
+}
+
+.carousel-control-prev-icon {
+  left: -65%;
+}

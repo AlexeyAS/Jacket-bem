@@ -1,0 +1,23 @@
+.black {
+  color: black;
+}
+
+%red {
+  font-weight: bold;
+  color: red;
+}
+
+.red-bg {
+  @extend %red;
+  background: red;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  font-size: 16px;
+}
+
+.small {
+  font-size: 14px;
+}

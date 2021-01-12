@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+  .header__wrap__main,
+  .icons-customer {
+    display: none;
+  }
+
+  .header__wrap__mobile {
+    display: block;
+  }
+
+  .form {
+    width: 310px;
+  }
+
+  .form__input {
+    width: 300px;
+  }
+
+  .main--left,
+  .main--right {
+    padding: 0;
+    width: 100%;
+  }
+
+  .rating__title {
+    text-align: center;
+  }
+
+  .rating__reviews {
+    justify-content: center;
+  }
+
+  .footer__top__block {
+    width: 100%;
+  }
+}
