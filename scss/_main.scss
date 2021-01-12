@@ -1,7 +1,7 @@
 .header--black {
   color: white;
   background: black;
-  text-align: center;
+  @include text(center);
 }
 
 .header {
@@ -17,7 +17,7 @@
 }
 
 .header__mobile {
-  display: none;
+  @include display(none);
 }
 
 .header__mobile__img {
@@ -29,7 +29,6 @@
   font-size: 24px;
   align-self: center;
   padding-left: 15px;
-
 }
 
 .header__main {
@@ -50,8 +49,7 @@
 
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  @include display(flex);
   margin: auto;
 }
 
@@ -65,8 +63,7 @@
 }
 
 .gallery {
-  @extend .container;
-  margin: 0;
+  @include display(flex);
 }
 
 .gallery__img {
@@ -99,7 +96,7 @@
 }
 
 .main__quantity__input {
-  text-align: center;
+  @include text(center);
   width: 50px;
 }
 
@@ -123,7 +120,7 @@
 
   ul {
     margin: 10px 0;
-    text-align: left;
+    @include text(left);
   }
 }
 
@@ -139,7 +136,7 @@
 }
 
 .rating__reviews {
-  @extend .gallery;
+  @include display(flex);
   color: #c41949;
 }
 
@@ -172,7 +169,7 @@
 }
 
 .reviews {
-  @extend .container;
+  @include display(flex);
   max-width: 1024px;
   margin: 30px auto;
   justify-content: center;
@@ -203,11 +200,11 @@
 }
 
 .reviews__title {
-  text-align: center;
+  @include text(center);
 }
 
 .reviews__flag {
-  text-align: center;
+  @extend .reviews__title;
   font-size: 14px;
   color: grey;
 }
@@ -278,7 +275,7 @@
 }
 
 .footer__top {
-  @extend .gallery;
+  @include display(flex);
 }
 
 .footer__top__block {

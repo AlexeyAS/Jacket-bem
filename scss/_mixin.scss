@@ -1,0 +1,10 @@
+@mixin text($property) {
+  text-align: $property;
+}
+
+@mixin display($property) {
+  display: $property;
+  @if ($property == "flex") {
+    flex-wrap: wrap;
+  }
+}

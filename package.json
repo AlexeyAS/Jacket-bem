@@ -1,0 +1,28 @@
+{
+  "name": "jacket-bem",
+  "version": "1.0.0",
+  "description": "## Simple html landing page with:",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyAS/Jacket-bem.git"
+  },
+  "author": "AlexeyAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyAS/Jacket-bem/issues"
+  },
+  "homepage": "https://github.com/AlexeyAS/Jacket-bem#readme"
+}
