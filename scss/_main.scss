@@ -87,7 +87,7 @@
 }
 
 .main__price {
-  color: #c41949;
+  color: $color-red;
   font-size: 24px;
 }
 
@@ -137,7 +137,7 @@
 
 .rating__reviews {
   @include display(flex);
-  color: #c41949;
+  color: $color-red;
 }
 
 .rating__reviews__bar {
@@ -157,15 +157,15 @@
 }
 
 .bar {
-  background: #c41949;
+  background: $color-red;
 }
 
 .bar-2 {
-  background: linear-gradient(to right, #c41949, #f0f2f8 2%);
+  background: linear-gradient(to right, $color-red, $color-white 2%);
 }
 
 .bar-3 {
-  background: #f0f2f8;
+  background: $color-white;
 }
 
 .reviews {
@@ -180,7 +180,7 @@
   display: block;
   width: 220px;
   margin: 10px;
-  background: #f0f2f8;
+  background: $color-white;
   box-shadow: 3px 5px 4px #888888;
   height: 100%;
 }
@@ -214,7 +214,7 @@
 }
 
 .reviews__stars {
-  color: #c41949;
+  color: $color-red;
   font-size: 18px;
   @include text(center);
 }
