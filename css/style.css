@@ -90,7 +90,7 @@ li {
   align-self: center;
   padding-right: 15px; }
 
-.rating__reviews, .footer__top, .reviews {
+.container, .gallery, .rating__reviews, .footer__top, .reviews {
   display: flex;
   flex-wrap: wrap;
   margin: auto; }
@@ -102,7 +102,7 @@ li {
 .carousel__img {
   max-width: 100%; }
 
-.rating__reviews, .footer__top {
+.gallery, .rating__reviews, .footer__top {
   margin: 0; }
 
 .gallery__img {

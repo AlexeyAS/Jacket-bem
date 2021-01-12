@@ -1,6 +1,3 @@
-
-
-
 .header--black {
   color: white;
   background: black;
@@ -52,7 +49,7 @@
 }
 
 
-%container {
+.container {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -67,8 +64,8 @@
   max-width: 100%;
 }
 
-%gallery {
-  @extend %container;
+.gallery {
+  @extend .container;
   margin: 0;
 }
 
@@ -142,7 +139,7 @@
 }
 
 .rating__reviews {
-  @extend %gallery;
+  @extend .gallery;
   color: #c41949;
 }
 
@@ -175,7 +172,7 @@
 }
 
 .reviews {
-  @extend %container;
+  @extend .container;
   max-width: 1024px;
   margin: 30px auto;
   justify-content: center;
@@ -281,7 +278,7 @@
 }
 
 .footer__top {
-  @extend %gallery;
+  @extend .gallery;
 }
 
 .footer__top__block {
