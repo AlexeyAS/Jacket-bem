@@ -3,13 +3,13 @@
   color: black;
 }
 
-%red {
+.red {
   font-weight: bold;
   color: red;
 }
 
 .red-bg {
-  @extend %red;
+  @extend .red;
   background: red;
   color: white;
 }

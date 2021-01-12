@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font: 100% Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 a {
@@ -27,9 +27,8 @@ li {
 
 .icons-customer:before,
 .icons-cart:before,
-.reviews__title:after,
-.reviews__flag:after {
-  font: 100% IcoMoon, monospace;
+.reviews__title:after {
+  font-family: IcoMoon, monospace;
 }
 
 .icons-customer:before {
@@ -40,9 +39,7 @@ li {
   content: "\e642";
 }
 
-
-.reviews__title:after,
-.reviews__flag:after {
+.reviews__title:after {
   content: "\e76c";
   background: #bae637;
   color: white;
@@ -269,11 +266,12 @@ li {
   border-radius: 50%;
 }
 
-.reviews__title, .reviews__flag {
+.reviews__title {
   text-align: center;
 }
 
 .reviews__flag {
+  text-align: center;
   font-size: 14px;
   color: grey;
 }
@@ -399,7 +397,7 @@ li {
   color: black;
 }
 
-.red-bg {
+.red, .red-bg {
   font-weight: bold;
   color: red;
 }
