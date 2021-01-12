@@ -23,7 +23,7 @@
   }
 
   .rating__title {
-    text-align: center;
+    @include text(center);
   }
 
   .rating__reviews {
