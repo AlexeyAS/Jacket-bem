@@ -1,9 +1,16 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font: 100% Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+a {
+  color: #666; }
 
 a,
 a:hover {
   text-decoration: none; }
+
+li {
+  padding-left: 25px; }
 
 @font-face {
   font-family: 'icomoon';
@@ -42,15 +49,6 @@ a:hover {
 
 .carousel-control-prev-icon {
   left: -65%; }
-
-body {
-  font: 100% Arial, "Helvetica Neue", Helvetica, sans-serif; }
-
-a {
-  color: #666; }
-
-li {
-  padding-left: 25px; }
 
 .header--black {
   color: white;

@@ -1,7 +1,14 @@
 body {
   margin: 0;
+  font: 100% $font-stack;
+}
+a {
+  color: $color-grey;
 }
 a,
 a:hover {
   text-decoration: none;
+}
+li {
+  padding-left: 25px;
 }
